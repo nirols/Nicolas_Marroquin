@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-image: url(/Canina_Felina/img/header.JPG);
+    background-repeat: no-repeat;
+    height: 19.5rem;
+    
+    border-radius: 2rem 2rem 0 0;
+}
+menu{
+    background-color: rgb(53, 126, 88);
+    padding: 1rem;
+    border-radius:0 0 2rem 2rem;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    
+    border-right: 2px solid white;
+    padding: 0 7rem 0 6rem;
+    list-style: none;
+}
+#dif li {
+    border: none;
+}
+ a{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+} 
+section{
+    display: flex;
+}
+#der{
+    display: flex;
+    flex-direction: column;
+}
+.info{
+    display: flex;
+}
+img{
+    width: 17rem;
+    border: 3px solid ;
+    border-radius: 2rem;
+}
+#art1{
+    width: 60rem;
+    height: 15rem;
+    background-color: rgb(221, 220, 128);
+    margin: 1rem 2rem 1rem 0;
+    padding: 1rem;
+    border-radius: 2rem 2rem 0 0;
+}
+#art2{
+    width: 60rem;
+    height: 15rem;
+    background-color: rgb(221, 220, 128);
+    margin: 0 2rem 1rem 0;
+    padding: 1rem;
+    border-radius: 0 0 2rem 2rem;
+}
+
+.parr{
+    display: flex;
+    flex-direction: column;
+}
+.ver{
+    margin-top: 2rem;
+    
+}
+.ve{
+    font-size: medium;
+    color: rgb(51, 88, 76);
+}
+#izq{
+    text-align: center;
+    flex-grow: 1;
+    background-color: rgb(53, 126, 88);
+    margin-top: 1rem;
+    border-radius: 2rem;
+    height: 35rem;
+}
+#cita{
+    color: white;
+    border-radius: 2rem 2rem 0 0;
+    padding: 1rem;
+    background-color: rgb(17, 47, 31);
+}
+input{
+    width: 10rem;
+    height:  2rem;
+}
+.form{
+    display: flex;
+    justify-content:space-between;
+    margin: 2rem 3rem;
+    color: white;
+}
+#button{
+    border: none;
+    border-radius: 0.3rem;
+}
+footer{
+    text-align: center;
+    padding: 2rem 0 1rem 0;
+    border-radius: 0 0 2rem 2rem;
+    background-color: rgb(26, 60, 42);
+    color: white;
+}
